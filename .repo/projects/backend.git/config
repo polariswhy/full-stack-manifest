@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+[filter "lfs"]
+	smudge = git-lfs smudge --skip -- %f
+	process = git-lfs filter-process --skip
+[remote "origin"]
+	url = https://github.com/Unnamed-project-o/backend
+	projectname = backend
+	fetch = +refs/heads/*:refs/remotes/origin/*

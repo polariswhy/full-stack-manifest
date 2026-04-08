@@ -1,0 +1,4 @@
+# pack-refs with: peeled fully-peeled sorted 
+d0b901e2adcb5614bd9e37bbbb0d735d9f0f9e72 refs/remotes/origin/jack/gitignore
+7829c3101752fc4244b6e208512a714f2461d330 refs/remotes/origin/master
+d50fdf77431c213310129d87daef83fb0e035723 refs/remotes/origin/yihao/chore/add_configuration

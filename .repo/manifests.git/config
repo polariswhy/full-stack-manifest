@@ -1,0 +1,46 @@
+[core]
+	repositoryFormatVersion = 1
+	filemode = true
+[filter "lfs"]
+	smudge = git-lfs smudge --skip -- %f
+	process = git-lfs filter-process --skip
+[remote "origin"]
+	url = https://github.com/Unnamed-project-o/full-stack-manifest.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[manifest]
+	platform = auto
+[extensions]
+	preciousObjects = true
+[branch "default"]
+	remote = origin
+	merge = refs/heads/main
+[repo]
+	existingprojectcount = 0
+	newprojectcount = 3
+[repo "syncstate.main"]
+	synctime = 2026-03-31T15:23:24.458070+00:00
+	version = 1
+[repo "syncstate.sys"]
+	argv = ['/home/moss/full-stack-repo/.repo/repo/main.py', '--repo-dir=/home/moss/full-stack-repo/.repo', '--wrapper-version=2.54', '--wrapper-path=/home/moss/.bin/repo', '--', 'sync', '-j16']
+[repo "syncstate.options"]
+	jobs = 16
+	outermanifest = true
+	jobsnetwork = 16
+	jobscheckout = 16
+	mpupdate = true
+	interleaved = true
+	clonebundle = true
+	retryfetches = 0
+	prune = true
+	repoverify = true
+	quiet = false
+	verbose = false
+[repo "syncstate.remote.origin"]
+	url = https://github.com/Unnamed-project-o/full-stack-manifest.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[repo "syncstate.branch.default"]
+	remote = origin
+	merge = refs/heads/main
+[repo "syncstate.repo"]
+	existingprojectcount = 0
+	newprojectcount = 3

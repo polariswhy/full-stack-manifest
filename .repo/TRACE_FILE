@@ -1,0 +1,638 @@
+PID: 5762 START: 1774970454820128768 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/Unnamed-project-o/full-stack-manifest.git [sid=repo-20260331T151900Z-P00001682/repo-20260331T152054Z-P00001682]
+
+PID: 5762 START: 1774970454827536384 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/moss/full-stack-repo/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 5762 END: 1774970454832868864 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/moss/full-stack-repo/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 5762 START: 1774970454833704960 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 5762 END: 1774970454836403712 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 5762 START: 1774970454836708096 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/.gitconfig', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/.gitconfig --includes --null --list 1>| 2>|
+
+PID: 5762 END: 1774970454842461184 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/.gitconfig', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/.gitconfig --includes --null --list 1>| 2>|
+
+PID: 5762 START: 1774970454843532800 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 5762 END: 1774970454848113664 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 5762 START: 1774970454848331776 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 5762 END: 1774970454851300608 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 5762 START: 1774970454851501312 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 5762 END: 1774970454854236416 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 5762 START: 1774970454854653696 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Unnamed-project-o/full-stack-manifest.git'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/Unnamed-project-o/full-stack-manifest.git 1>| 2>|
+
+PID: 5762 END: 1774970454857210880 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Unnamed-project-o/full-stack-manifest.git'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/Unnamed-project-o/full-stack-manifest.git 1>| 2>|
+
+PID: 5762 START: 1774970454857339392 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 5762 END: 1774970454859943680 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 5762 START: 1774970454860070912 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'ls-remote', '-q', '--symref', '--exit-code', 'origin', 'HEAD'] with debug: : git ls-remote -q --symref --exit-code origin HEAD 1>| 2>|
+
+PID: 5762 END: 1774970457745761280 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'ls-remote', '-q', '--symref', '--exit-code', 'origin', 'HEAD'] with debug: : git ls-remote -q --symref --exit-code origin HEAD 1>| 2>|
+
+PID: 5762 START: 1774970457746628096 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 5762 END: 1774970457751378432 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 5762 START: 1774970457751874816 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 5762 END: 1774970457756409856 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 5762 START: 1774970457756580608 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 5762 END: 1774970457759203840 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 5762 START: 1774970457759518720 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/main:refs/remotes/origin/main', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/moss/full-stack-repo/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/main:refs/remotes/origin/main +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 5762 END: 1774970463337752576 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/main:refs/remotes/origin/main', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/moss/full-stack-repo/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/main:refs/remotes/origin/main +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 5762 START: 1774970463337989632 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 5762 END: 1774970463341092352 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 5762 START: 1774970463341436416 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/main^0'] with debug: : git rev-parse --verify refs/remotes/origin/main^0 1>| 2>|
+
+PID: 5762 END: 1774970463344157952 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/main^0'] with debug: : git rev-parse --verify refs/remotes/origin/main^0 1>| 2>|
+
+PID: 5762 START: 1774970463344319488 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'update-ref', '--no-deref', 'HEAD', '7045cb3fb6155e3005a24a814b43a2f35c5f2545'] with debug: 
+: cd /home/moss/full-stack-repo/.repo/manifests
+: git update-ref --no-deref HEAD 7045cb3fb6155e3005a24a814b43a2f35c5f2545 1>| 2>|
+
+PID: 5762 END: 1774970463348074496 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'update-ref', '--no-deref', 'HEAD', '7045cb3fb6155e3005a24a814b43a2f35c5f2545'] with debug: 
+: cd /home/moss/full-stack-repo/.repo/manifests
+: git update-ref --no-deref HEAD 7045cb3fb6155e3005a24a814b43a2f35c5f2545 1>| 2>|
+
+PID: 5762 START: 1774970463348318976 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: : git read-tree --reset -u -v HEAD 2>|
+
+PID: 5762 END: 1774970463352058624 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: : git read-tree --reset -u -v HEAD 2>|
+
+PID: 5762 START: 1774970463352188160 :: load refs /home/moss/full-stack-repo/.repo/manifests.git
+
+PID: 5762 END: 1774970463352364032 :: load refs /home/moss/full-stack-repo/.repo/manifests.git
+
+PID: 5762 START: 1774970463352514304 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5762 END: 1774970463355087872 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5762 START: 1774970463355245568 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 5762 END: 1774970463357849600 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 5762 START: 1774970463358057728 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5762 END: 1774970463360267520 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5762 START: 1774970463360382464 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 5762 END: 1774970463363029760 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 5762 START: 1774970463363116544 :: scan refs /home/moss/full-stack-repo/.repo/manifests.git
+
+PID: 5762 END: 1774970463363155456 :: scan refs /home/moss/full-stack-repo/.repo/manifests.git
+
+PID: 5762 START: 1774970463363291648 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', '7045cb3fb6155e3005a24a814b43a2f35c5f2545'] with debug: : git update-ref refs/heads/default 7045cb3fb6155e3005a24a814b43a2f35c5f2545 1>| 2>|
+
+PID: 5762 END: 1774970463367337216 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', '7045cb3fb6155e3005a24a814b43a2f35c5f2545'] with debug: : git update-ref refs/heads/default 7045cb3fb6155e3005a24a814b43a2f35c5f2545 1>| 2>|
+
+PID: 5762 START: 1774970463367629312 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 5762 END: 1774970463371539200 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 5762 START: 1774970463371893504 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5762 END: 1774970463373892096 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5762 START: 1774970520275846400 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/.gitconfig', '--includes', '--replace-all', 'color.ui', 'auto'] with debug: : git config --file /home/moss/.gitconfig --includes --replace-all color.ui auto 1>| 2>|
+
+PID: 5762 END: 1774970520283541248 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/.gitconfig', '--includes', '--replace-all', 'color.ui', 'auto'] with debug: : git config --file /home/moss/.gitconfig --includes --replace-all color.ui auto 1>| 2>|
+
+PID: 5762 START: 1774970520284098304 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 5762 END: 1774970520287001600 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 5762 END: 1774970520287106048 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/Unnamed-project-o/full-stack-manifest.git [sid=repo-20260331T151900Z-P00001682/repo-20260331T152054Z-P00001682]
+
+PID: 6578 START: 1774970563360171008 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: sync, -j16 [sid=repo-20260331T152243Z-P000019b2/repo-20260331T152243Z-P000019b2]
+
+PID: 6578 START: 1774970563367769088 :git command None ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 6578 END: 1774970563372788736 :git command None ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 6578 START: 1774970563373332736 :git command None ['git', 'config', '--file', '/home/moss/.gitconfig', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/.gitconfig --includes --null --list 1>| 2>|
+
+PID: 6578 END: 1774970563376361216 :git command None ['git', 'config', '--file', '/home/moss/.gitconfig', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/.gitconfig --includes --null --list 1>| 2>|
+
+PID: 6578 START: 1774970563385695232 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : cd /home/moss/full-stack-repo/.repo/repo
+: git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 6578 END: 1774970563389056000 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : cd /home/moss/full-stack-repo/.repo/repo
+: git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 6578 START: 1774970563389298944 :git command None ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/repo/.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/repo/.git/config --includes --null --list 1>| 2>|
+
+PID: 6578 END: 1774970563392531968 :git command None ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/repo/.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/repo/.git/config --includes --null --list 1>| 2>|
+
+PID: 6578 START: 1774970563393008640 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 6578 END: 1774970563396092416 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 6578 START: 1774970563396292352 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: 
+: cd /home/moss/full-stack-repo/.repo/manifests
+: git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 6578 END: 1774970563398903552 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: 
+: cd /home/moss/full-stack-repo/.repo/manifests
+: git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 6578 START: 1774970563399077120 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 6578 END: 1774970563401609984 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 6578 START: 1774970563405539840 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/main:refs/remotes/origin/main', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/moss/full-stack-repo/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/moss/full-stack-repo/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/main:refs/remotes/origin/main +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 6578 END: 1774970566172028416 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/main:refs/remotes/origin/main', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/moss/full-stack-repo/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/moss/full-stack-repo/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/main:refs/remotes/origin/main +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 6578 START: 1774970566172166656 :: load refs /home/moss/full-stack-repo/.repo/manifests.git
+
+PID: 6578 END: 1774970566172346624 :: load refs /home/moss/full-stack-repo/.repo/manifests.git
+
+PID: 6578 START: 1774970566172488704 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'symbolic-ref', '-m', 'manifest set to refs/heads/main', 'refs/remotes/m/main', 'refs/remotes/origin/main'] with debug: : git symbolic-ref -m manifest set to refs/heads/main refs/remotes/m/main refs/remotes/origin/main 1>| 2>|
+
+PID: 6578 END: 1774970566175371008 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'symbolic-ref', '-m', 'manifest set to refs/heads/main', 'refs/remotes/m/main', 'refs/remotes/origin/main'] with debug: : git symbolic-ref -m manifest set to refs/heads/main refs/remotes/m/main refs/remotes/origin/main 1>| 2>|
+
+PID: 6578 START: 1774970566175476992 :: scan refs /home/moss/full-stack-repo/.repo/manifests.git
+
+PID: 6578 END: 1774970566175515648 :: scan refs /home/moss/full-stack-repo/.repo/manifests.git
+
+PID: 6578 START: 1774970566175542784 :: scan refs /home/moss/full-stack-repo/.repo/manifests.git
+
+PID: 6578 END: 1774970566175565824 :: scan refs /home/moss/full-stack-repo/.repo/manifests.git
+
+PID: 6578 START: 1774970566175693824 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 6578 END: 1774970566177994752 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 6578 START: 1774970566178253568 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.existingprojectcount', '0'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.existingprojectcount 0 1>| 2>|
+
+PID: 6578 END: 1774970566181490944 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.existingprojectcount', '0'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.existingprojectcount 0 1>| 2>|
+
+PID: 6578 START: 1774970566181678592 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.newprojectcount', '3'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.newprojectcount 3 1>| 2>|
+
+PID: 6578 END: 1774970566184345088 :git command /home/moss/full-stack-repo/.repo/manifests.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.newprojectcount', '3'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.newprojectcount 3 1>| 2>|
+
+PID: 6578 START: 1774970566245929472 :git command /home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git
+: git init 1>| 2>|
+
+PID: 6578 END: 1774970566254148096 :git command /home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git
+: git init 1>| 2>|
+
+PID: 6578 START: 1774970566257738496 :git command /home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-dx6t1_j9/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-dx6t1_j9/config --includes --null --list 1>| 2>|
+
+PID: 6578 END: 1774970566260855296 :git command /home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-dx6t1_j9/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-dx6t1_j9/config --includes --null --list 1>| 2>|
+
+PID: 6578 START: 1774970566261184256 :git command /home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-dx6t1_j9/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-dx6t1_j9/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 6578 END: 1774970566265077248 :git command /home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-dx6t1_j9/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-dx6t1_j9/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 6578 START: 1774970566265309696 :git command /home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-dx6t1_j9/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-dx6t1_j9/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 6578 END: 1774970566269259776 :git command /home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-dx6t1_j9/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-dx6t1_j9/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 6578 START: 1774970566269483008 :git command /home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-dx6t1_j9/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-dx6t1_j9/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 6578 END: 1774970566272556032 :git command /home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-dx6t1_j9/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-dx6t1_j9/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 6578 START: 1774970566273232896 :git command /home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/..git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/..git/config --includes --null --list 1>| 2>|
+
+PID: 6578 END: 1774970566275792384 :git command /home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/..git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/..git/config --includes --null --list 1>| 2>|
+
+PID: 6578 START: 1774970566276206592 :git command /home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/..git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Unnamed-project-o/full-stack-readme'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/..git/config --includes --replace-all remote.origin.url https://github.com/Unnamed-project-o/full-stack-readme 1>| 2>|
+
+PID: 6578 END: 1774970566280391680 :git command /home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/..git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Unnamed-project-o/full-stack-readme'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/..git/config --includes --replace-all remote.origin.url https://github.com/Unnamed-project-o/full-stack-readme 1>| 2>|
+
+PID: 6578 START: 1774970566280715008 :git command /home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/..git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'full-stack-readme'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/..git/config --includes --replace-all remote.origin.projectname full-stack-readme 1>| 2>|
+
+PID: 6578 END: 1774970566283709184 :git command /home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/..git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'full-stack-readme'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/..git/config --includes --replace-all remote.origin.projectname full-stack-readme 1>| 2>|
+
+PID: 6578 START: 1774970566283923456 :git command /home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/..git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/..git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 6578 END: 1774970566286560768 :git command /home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/..git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/..git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 6578 START: 1774970566287079168 :Fetching bundle: curl --fail --output /home/moss/full-stack-repo/.repo/projects/..git/clone.bundle.tmp --netrc-optional --location https://github.com/Unnamed-project-o/full-stack-readme/clone.bundle
+
+PID: 6578 END: 1774970566287436032 :Fetching bundle: curl --fail --output /home/moss/full-stack-repo/.repo/projects/..git/clone.bundle.tmp --netrc-optional --location https://github.com/Unnamed-project-o/full-stack-readme/clone.bundle
+
+PID: 6578 START: 1774970568402740992 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/main:refs/remotes/origin/main', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/moss/full-stack-repo/.repo/projects/..git
+: export GIT_OBJECT_DIRECTORY=/home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/main:refs/remotes/origin/main +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 6578 END: 1774970592888536320 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/main:refs/remotes/origin/main', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/moss/full-stack-repo/.repo/projects/..git
+: export GIT_OBJECT_DIRECTORY=/home/moss/full-stack-repo/.repo/project-objects/full-stack-readme.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/main:refs/remotes/origin/main +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 6578 START: 1774970592889308416 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 6578 END: 1774970592892981504 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 6578 START: 1774970592893161728 :: load refs /home/moss/full-stack-repo/.repo/projects/..git
+
+PID: 6578 END: 1774970592893435136 :: load refs /home/moss/full-stack-repo/.repo/projects/..git
+
+PID: 6578 START: 1774970592893618688 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'symbolic-ref', '-m', 'manifest set to main', 'refs/remotes/m/main', 'refs/remotes/origin/main'] with debug: : git symbolic-ref -m manifest set to main refs/remotes/m/main refs/remotes/origin/main 1>| 2>|
+
+PID: 6578 END: 1774970592896922368 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'symbolic-ref', '-m', 'manifest set to main', 'refs/remotes/m/main', 'refs/remotes/origin/main'] with debug: : git symbolic-ref -m manifest set to main refs/remotes/m/main refs/remotes/origin/main 1>| 2>|
+
+PID: 6578 START: 1774970592897685760 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/main^0'] with debug: : git rev-parse --verify refs/remotes/origin/main^0 1>| 2>|
+
+PID: 6578 END: 1774970592900593408 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/main^0'] with debug: : git rev-parse --verify refs/remotes/origin/main^0 1>| 2>|
+
+PID: 6578 START: 1774970592900770816 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'update-ref', '--no-deref', 'HEAD', 'db10f71f4e26d8632b783961c731582493a86a33'] with debug: 
+: cd /home/moss/full-stack-repo
+: git update-ref --no-deref HEAD db10f71f4e26d8632b783961c731582493a86a33 1>| 2>|
+
+PID: 6578 END: 1774970592905073408 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'update-ref', '--no-deref', 'HEAD', 'db10f71f4e26d8632b783961c731582493a86a33'] with debug: 
+: cd /home/moss/full-stack-repo
+: git update-ref --no-deref HEAD db10f71f4e26d8632b783961c731582493a86a33 1>| 2>|
+
+PID: 6578 START: 1774970592905352960 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: : git read-tree --reset -u -v HEAD 2>|
+
+PID: 6578 END: 1774970592909090816 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: : git read-tree --reset -u -v HEAD 2>|
+
+PID: 6578 START: 1774970592909381632 :: scan refs /home/moss/full-stack-repo/.repo/projects/..git
+
+PID: 6578 END: 1774970592909444864 :: scan refs /home/moss/full-stack-repo/.repo/projects/..git
+
+PID: 6578 START: 1774970592909469952 :: load refs /home/moss/full-stack-repo/.repo/projects/..git
+
+PID: 6578 END: 1774970592909704448 :: load refs /home/moss/full-stack-repo/.repo/projects/..git
+
+PID: 6578 START: 1774970592909892864 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'ls-tree', '-z', '--name-only', '--', 'db10f71f4e26d8632b783961c731582493a86a33'] with debug: : git ls-tree -z --name-only -- db10f71f4e26d8632b783961c731582493a86a33 1>| 2>|
+
+PID: 6578 END: 1774970592914300416 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'ls-tree', '-z', '--name-only', '--', 'db10f71f4e26d8632b783961c731582493a86a33'] with debug: : git ls-tree -z --name-only -- db10f71f4e26d8632b783961c731582493a86a33 1>| 2>|
+
+PID: 6578 START: 1774970592914555392 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 6578 END: 1774970592917418496 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 6578 START: 1774970592917750528 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 6578 END: 1774970592921723904 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 6578 START: 1774970592922568448 :: scan refs /home/moss/full-stack-repo/.repo/projects/..git
+
+PID: 6578 END: 1774970592922734080 :: scan refs /home/moss/full-stack-repo/.repo/projects/..git
+
+PID: 6578 START: 1774970592922804736 :: scan refs /home/moss/full-stack-repo/.repo/projects/..git
+
+PID: 6578 END: 1774970592922836224 :: scan refs /home/moss/full-stack-repo/.repo/projects/..git
+
+PID: 6899 START: 1774970592944958208 :git command /home/moss/full-stack-repo/.repo/project-objects/frontend.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/moss/full-stack-repo/.repo/project-objects/frontend.git
+: git init 1>| 2>|
+
+PID: 6900 START: 1774970592945485056 :git command /home/moss/full-stack-repo/.repo/project-objects/backend.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/moss/full-stack-repo/.repo/project-objects/backend.git
+: git init 1>| 2>|
+
+PID: 6899 END: 1774970592954854400 :git command /home/moss/full-stack-repo/.repo/project-objects/frontend.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/moss/full-stack-repo/.repo/project-objects/frontend.git
+: git init 1>| 2>|
+
+PID: 6900 END: 1774970592955871744 :git command /home/moss/full-stack-repo/.repo/project-objects/backend.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/moss/full-stack-repo/.repo/project-objects/backend.git
+: git init 1>| 2>|
+
+PID: 6899 START: 1774970592959038976 :git command /home/moss/full-stack-repo/.repo/project-objects/frontend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-69g4f2ea/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-69g4f2ea/config --includes --null --list 1>| 2>|
+
+PID: 6900 START: 1774970592959816704 :git command /home/moss/full-stack-repo/.repo/project-objects/backend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-pm35722c/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-pm35722c/config --includes --null --list 1>| 2>|
+
+PID: 6900 END: 1774970592964538368 :git command /home/moss/full-stack-repo/.repo/project-objects/backend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-pm35722c/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-pm35722c/config --includes --null --list 1>| 2>|
+
+PID: 6900 START: 1774970592964997888 :git command /home/moss/full-stack-repo/.repo/project-objects/backend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-pm35722c/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-pm35722c/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 6899 END: 1774970592965148928 :git command /home/moss/full-stack-repo/.repo/project-objects/frontend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-69g4f2ea/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-69g4f2ea/config --includes --null --list 1>| 2>|
+
+PID: 6899 START: 1774970592966560768 :git command /home/moss/full-stack-repo/.repo/project-objects/frontend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-69g4f2ea/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-69g4f2ea/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 6899 END: 1774970592970864128 :git command /home/moss/full-stack-repo/.repo/project-objects/frontend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-69g4f2ea/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-69g4f2ea/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 6900 END: 1774970592970998784 :git command /home/moss/full-stack-repo/.repo/project-objects/backend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-pm35722c/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-pm35722c/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 6899 START: 1774970592971097088 :git command /home/moss/full-stack-repo/.repo/project-objects/frontend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-69g4f2ea/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-69g4f2ea/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 6900 START: 1774970592971171840 :git command /home/moss/full-stack-repo/.repo/project-objects/backend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-pm35722c/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-pm35722c/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 6899 END: 1774970592977397504 :git command /home/moss/full-stack-repo/.repo/project-objects/frontend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-69g4f2ea/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-69g4f2ea/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 6899 START: 1774970592977806592 :git command /home/moss/full-stack-repo/.repo/project-objects/frontend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-69g4f2ea/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-69g4f2ea/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 6900 END: 1774970592979966464 :git command /home/moss/full-stack-repo/.repo/project-objects/backend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-pm35722c/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-pm35722c/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 6900 START: 1774970592980287488 :git command /home/moss/full-stack-repo/.repo/project-objects/backend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-pm35722c/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-pm35722c/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 6899 END: 1774970592984088064 :git command /home/moss/full-stack-repo/.repo/project-objects/frontend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-69g4f2ea/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-69g4f2ea/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 6899 START: 1774970592984864512 :git command /home/moss/full-stack-repo/.repo/project-objects/frontend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/frontend.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/frontend.git/config --includes --null --list 1>| 2>|
+
+PID: 6900 END: 1774970592985036032 :git command /home/moss/full-stack-repo/.repo/project-objects/backend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-pm35722c/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/.tmp-project-initgitdir-pm35722c/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 6900 START: 1774970592985530624 :git command /home/moss/full-stack-repo/.repo/project-objects/backend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/backend.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/backend.git/config --includes --null --list 1>| 2>|
+
+PID: 6899 END: 1774970592988293632 :git command /home/moss/full-stack-repo/.repo/project-objects/frontend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/frontend.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/frontend.git/config --includes --null --list 1>| 2>|
+
+PID: 6899 START: 1774970592988714752 :git command /home/moss/full-stack-repo/.repo/project-objects/frontend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/frontend.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Unnamed-project-o/frontend'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/frontend.git/config --includes --replace-all remote.origin.url https://github.com/Unnamed-project-o/frontend 1>| 2>|
+
+PID: 6900 END: 1774970592989051392 :git command /home/moss/full-stack-repo/.repo/project-objects/backend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/backend.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/backend.git/config --includes --null --list 1>| 2>|
+
+PID: 6900 START: 1774970592989355520 :git command /home/moss/full-stack-repo/.repo/project-objects/backend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/backend.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Unnamed-project-o/backend'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/backend.git/config --includes --replace-all remote.origin.url https://github.com/Unnamed-project-o/backend 1>| 2>|
+
+PID: 6899 END: 1774970592992364800 :git command /home/moss/full-stack-repo/.repo/project-objects/frontend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/frontend.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Unnamed-project-o/frontend'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/frontend.git/config --includes --replace-all remote.origin.url https://github.com/Unnamed-project-o/frontend 1>| 2>|
+
+PID: 6899 START: 1774970592992800256 :git command /home/moss/full-stack-repo/.repo/project-objects/frontend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/frontend.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'frontend'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/frontend.git/config --includes --replace-all remote.origin.projectname frontend 1>| 2>|
+
+PID: 6900 END: 1774970592992912896 :git command /home/moss/full-stack-repo/.repo/project-objects/backend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/backend.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Unnamed-project-o/backend'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/backend.git/config --includes --replace-all remote.origin.url https://github.com/Unnamed-project-o/backend 1>| 2>|
+
+PID: 6900 START: 1774970592993199360 :git command /home/moss/full-stack-repo/.repo/project-objects/backend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/backend.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'backend'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/backend.git/config --includes --replace-all remote.origin.projectname backend 1>| 2>|
+
+PID: 6899 END: 1774970592997266944 :git command /home/moss/full-stack-repo/.repo/project-objects/frontend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/frontend.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'frontend'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/frontend.git/config --includes --replace-all remote.origin.projectname frontend 1>| 2>|
+
+PID: 6899 START: 1774970592997522688 :git command /home/moss/full-stack-repo/.repo/project-objects/frontend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/frontend.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/frontend.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 6900 END: 1774970592998303232 :git command /home/moss/full-stack-repo/.repo/project-objects/backend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/backend.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'backend'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/backend.git/config --includes --replace-all remote.origin.projectname backend 1>| 2>|
+
+PID: 6900 START: 1774970592998644224 :git command /home/moss/full-stack-repo/.repo/project-objects/backend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/backend.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/backend.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 6899 END: 1774970593001532928 :git command /home/moss/full-stack-repo/.repo/project-objects/frontend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/frontend.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/frontend.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 6899 START: 1774970593002009600 :Fetching bundle: curl --fail --output /home/moss/full-stack-repo/.repo/projects/frontend.git/clone.bundle.tmp --netrc-optional --location https://github.com/Unnamed-project-o/frontend/clone.bundle
+
+PID: 6900 END: 1774970593002744064 :git command /home/moss/full-stack-repo/.repo/project-objects/backend.git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/backend.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/backend.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 6900 START: 1774970593003086336 :Fetching bundle: curl --fail --output /home/moss/full-stack-repo/.repo/projects/backend.git/clone.bundle.tmp --netrc-optional --location https://github.com/Unnamed-project-o/backend/clone.bundle
+
+PID: 6899 END: 1774970593003695872 :Fetching bundle: curl --fail --output /home/moss/full-stack-repo/.repo/projects/frontend.git/clone.bundle.tmp --netrc-optional --location https://github.com/Unnamed-project-o/frontend/clone.bundle
+
+PID: 6900 END: 1774970593005674496 :Fetching bundle: curl --fail --output /home/moss/full-stack-repo/.repo/projects/backend.git/clone.bundle.tmp --netrc-optional --location https://github.com/Unnamed-project-o/backend/clone.bundle
+
+PID: 6899 START: 1774970595036266240 :git command /home/moss/full-stack-repo/.repo/projects/frontend.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/moss/full-stack-repo/.repo/projects/frontend.git
+: export GIT_OBJECT_DIRECTORY=/home/moss/full-stack-repo/.repo/project-objects/frontend.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 6900 START: 1774970595363941376 :git command /home/moss/full-stack-repo/.repo/projects/backend.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/moss/full-stack-repo/.repo/projects/backend.git
+: export GIT_OBJECT_DIRECTORY=/home/moss/full-stack-repo/.repo/project-objects/backend.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 6900 END: 1774970598442020608 :git command /home/moss/full-stack-repo/.repo/projects/backend.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/moss/full-stack-repo/.repo/projects/backend.git
+: export GIT_OBJECT_DIRECTORY=/home/moss/full-stack-repo/.repo/project-objects/backend.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 6900 START: 1774970598445756928 :git command /home/moss/full-stack-repo/.repo/projects/backend.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 6900 END: 1774970598450619136 :git command /home/moss/full-stack-repo/.repo/projects/backend.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 6900 START: 1774970598451190272 :: load refs /home/moss/full-stack-repo/.repo/projects/backend.git
+
+PID: 6900 END: 1774970598451606784 :: load refs /home/moss/full-stack-repo/.repo/projects/backend.git
+
+PID: 6900 START: 1774970598452041216 :git command /home/moss/full-stack-repo/.repo/projects/backend.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/main', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/main refs/remotes/origin/master 1>| 2>|
+
+PID: 6900 END: 1774970598454801664 :git command /home/moss/full-stack-repo/.repo/projects/backend.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/main', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/main refs/remotes/origin/master 1>| 2>|
+
+PID: 6900 START: 1774970598456007680 :git command /home/moss/full-stack-repo/.repo/projects/backend.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: : git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 6900 END: 1774970598458643968 :git command /home/moss/full-stack-repo/.repo/projects/backend.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: : git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 6900 START: 1774970598458987776 :git command /home/moss/full-stack-repo/.repo/projects/backend.git ['git', 'update-ref', '--no-deref', 'HEAD', 'a8d8e1d560e00e8cf86c493705b12630aaf04185'] with debug: 
+: cd /home/moss/full-stack-repo/backend
+: git update-ref --no-deref HEAD a8d8e1d560e00e8cf86c493705b12630aaf04185 1>| 2>|
+
+PID: 6900 END: 1774970598463519488 :git command /home/moss/full-stack-repo/.repo/projects/backend.git ['git', 'update-ref', '--no-deref', 'HEAD', 'a8d8e1d560e00e8cf86c493705b12630aaf04185'] with debug: 
+: cd /home/moss/full-stack-repo/backend
+: git update-ref --no-deref HEAD a8d8e1d560e00e8cf86c493705b12630aaf04185 1>| 2>|
+
+PID: 6900 START: 1774970598463922176 :git command /home/moss/full-stack-repo/.repo/projects/backend.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: : git read-tree --reset -u -v HEAD 2>|
+
+PID: 6900 END: 1774970598469931776 :git command /home/moss/full-stack-repo/.repo/projects/backend.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: : git read-tree --reset -u -v HEAD 2>|
+
+PID: 6900 START: 1774970598470056448 :: scan refs /home/moss/full-stack-repo/.repo/projects/backend.git
+
+PID: 6900 END: 1774970598470102016 :: scan refs /home/moss/full-stack-repo/.repo/projects/backend.git
+
+PID: 6900 START: 1774970598470119424 :: load refs /home/moss/full-stack-repo/.repo/projects/backend.git
+
+PID: 6900 END: 1774970598470329344 :: load refs /home/moss/full-stack-repo/.repo/projects/backend.git
+
+PID: 6900 START: 1774970598470459648 :git command /home/moss/full-stack-repo/.repo/projects/backend.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 6900 END: 1774970598473077504 :git command /home/moss/full-stack-repo/.repo/projects/backend.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 6900 START: 1774970598473226752 :git command /home/moss/full-stack-repo/.repo/projects/backend.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 6900 END: 1774970598476272896 :git command /home/moss/full-stack-repo/.repo/projects/backend.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 6578 START: 1774970598486583296 :: load refs /home/moss/full-stack-repo/.repo/projects/backend.git
+
+PID: 6578 END: 1774970598489151488 :: load refs /home/moss/full-stack-repo/.repo/projects/backend.git
+
+PID: 6578 START: 1774970598490581760 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/backend.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/backend.git/config --includes --null --list 1>| 2>|
+
+PID: 6578 END: 1774970598495830016 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/backend.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/backend.git/config --includes --null --list 1>| 2>|
+
+PID: 6578 START: 1774970598496438272 :: scan refs /home/moss/full-stack-repo/.repo/projects/backend.git
+
+PID: 6578 END: 1774970598496498176 :: scan refs /home/moss/full-stack-repo/.repo/projects/backend.git
+
+PID: 6899 END: 1774970604385353216 :git command /home/moss/full-stack-repo/.repo/projects/frontend.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/moss/full-stack-repo/.repo/projects/frontend.git
+: export GIT_OBJECT_DIRECTORY=/home/moss/full-stack-repo/.repo/project-objects/frontend.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 6899 START: 1774970604387565312 :git command /home/moss/full-stack-repo/.repo/projects/frontend.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 6899 END: 1774970604392500224 :git command /home/moss/full-stack-repo/.repo/projects/frontend.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 6899 START: 1774970604393004800 :: load refs /home/moss/full-stack-repo/.repo/projects/frontend.git
+
+PID: 6899 END: 1774970604393282048 :: load refs /home/moss/full-stack-repo/.repo/projects/frontend.git
+
+PID: 6899 START: 1774970604393650944 :git command /home/moss/full-stack-repo/.repo/projects/frontend.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/main', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/main refs/remotes/origin/master 1>| 2>|
+
+PID: 6899 END: 1774970604397353216 :git command /home/moss/full-stack-repo/.repo/projects/frontend.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/main', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/main refs/remotes/origin/master 1>| 2>|
+
+PID: 6899 START: 1774970604398798080 :git command /home/moss/full-stack-repo/.repo/projects/frontend.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: : git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 6899 END: 1774970604402118144 :git command /home/moss/full-stack-repo/.repo/projects/frontend.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: : git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 6899 START: 1774970604402272512 :git command /home/moss/full-stack-repo/.repo/projects/frontend.git ['git', 'update-ref', '--no-deref', 'HEAD', '7829c3101752fc4244b6e208512a714f2461d330'] with debug: 
+: cd /home/moss/full-stack-repo/frontend
+: git update-ref --no-deref HEAD 7829c3101752fc4244b6e208512a714f2461d330 1>| 2>|
+
+PID: 6899 END: 1774970604405639424 :git command /home/moss/full-stack-repo/.repo/projects/frontend.git ['git', 'update-ref', '--no-deref', 'HEAD', '7829c3101752fc4244b6e208512a714f2461d330'] with debug: 
+: cd /home/moss/full-stack-repo/frontend
+: git update-ref --no-deref HEAD 7829c3101752fc4244b6e208512a714f2461d330 1>| 2>|
+
+PID: 6899 START: 1774970604405777664 :git command /home/moss/full-stack-repo/.repo/projects/frontend.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: : git read-tree --reset -u -v HEAD 2>|
+
+PID: 6899 END: 1774970604414154752 :git command /home/moss/full-stack-repo/.repo/projects/frontend.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: : git read-tree --reset -u -v HEAD 2>|
+
+PID: 6899 START: 1774970604414726144 :: scan refs /home/moss/full-stack-repo/.repo/projects/frontend.git
+
+PID: 6899 END: 1774970604414878208 :: scan refs /home/moss/full-stack-repo/.repo/projects/frontend.git
+
+PID: 6899 START: 1774970604414914048 :: load refs /home/moss/full-stack-repo/.repo/projects/frontend.git
+
+PID: 6899 END: 1774970604415238656 :: load refs /home/moss/full-stack-repo/.repo/projects/frontend.git
+
+PID: 6899 START: 1774970604415471872 :git command /home/moss/full-stack-repo/.repo/projects/frontend.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 6899 END: 1774970604419383040 :git command /home/moss/full-stack-repo/.repo/projects/frontend.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 6899 START: 1774970604419526912 :git command /home/moss/full-stack-repo/.repo/projects/frontend.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 6899 END: 1774970604422278912 :git command /home/moss/full-stack-repo/.repo/projects/frontend.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 6578 START: 1774970604426532608 :: load refs /home/moss/full-stack-repo/.repo/projects/frontend.git
+
+PID: 6578 END: 1774970604426991872 :: load refs /home/moss/full-stack-repo/.repo/projects/frontend.git
+
+PID: 6578 START: 1774970604427399168 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/frontend.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/frontend.git/config --includes --null --list 1>| 2>|
+
+PID: 6578 END: 1774970604430949376 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/frontend.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/frontend.git/config --includes --null --list 1>| 2>|
+
+PID: 6578 START: 1774970604431273472 :: scan refs /home/moss/full-stack-repo/.repo/projects/frontend.git
+
+PID: 6578 END: 1774970604431325440 :: scan refs /home/moss/full-stack-repo/.repo/projects/frontend.git
+
+PID: 6578 START: 1774970604436882176 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: 
+: cd /home/moss/full-stack-repo/.repo/manifests
+: git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 6578 END: 1774970604440335872 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: 
+: cd /home/moss/full-stack-repo/.repo/manifests
+: git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 6578 START: 1774970604454329344 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/..git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/..git/config --includes --null --list 1>| 2>|
+
+PID: 6578 END: 1774970604457493760 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/projects/..git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/moss/full-stack-repo/.repo/projects/..git/config --includes --null --list 1>| 2>|
+
+PID: 6578 START: 1774970604457709824 :: parsing /home/moss/full-stack-repo/.repo/projects/backend.git/config
+
+PID: 6578 END: 1774970604457872896 :: parsing /home/moss/full-stack-repo/.repo/projects/backend.git/config
+
+PID: 6578 START: 1774970604457922560 :: parsing /home/moss/full-stack-repo/.repo/projects/frontend.git/config
+
+PID: 6578 END: 1774970604457969152 :: parsing /home/moss/full-stack-repo/.repo/projects/frontend.git/config
+
+PID: 6578 START: 1774970604458200832 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.synctime', '2026-03-31T15:23:24.458070+00:00'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.synctime 2026-03-31T15:23:24.458070+00:00 1>| 2>|
+
+PID: 6578 END: 1774970604461548800 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.synctime', '2026-03-31T15:23:24.458070+00:00'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.synctime 2026-03-31T15:23:24.458070+00:00 1>| 2>|
+
+PID: 6578 START: 1774970604461826816 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.version', '1'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.version 1 1>| 2>|
+
+PID: 6578 END: 1774970604464804352 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.version', '1'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.version 1 1>| 2>|
+
+PID: 6578 START: 1774970604464964608 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.sys.argv', "['/home/moss/full-stack-repo/.repo/repo/main.py', '--repo-dir=/home/moss/full-stack-repo/.repo', '--wrapper-version=2.54', '--wrapper-path=/home/moss/.bin/repo', '--', 'sync', '-j16']"] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.sys.argv ['/home/moss/full-stack-repo/.repo/repo/main.py', '--repo-dir=/home/moss/full-stack-repo/.repo', '--wrapper-version=2.54', '--wrapper-path=/home/moss/.bin/repo', '--', 'sync', '-j16'] 1>| 2>|
+
+PID: 6578 END: 1774970604467838464 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.sys.argv', "['/home/moss/full-stack-repo/.repo/repo/main.py', '--repo-dir=/home/moss/full-stack-repo/.repo', '--wrapper-version=2.54', '--wrapper-path=/home/moss/.bin/repo', '--', 'sync', '-j16']"] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.sys.argv ['/home/moss/full-stack-repo/.repo/repo/main.py', '--repo-dir=/home/moss/full-stack-repo/.repo', '--wrapper-version=2.54', '--wrapper-path=/home/moss/.bin/repo', '--', 'sync', '-j16'] 1>| 2>|
+
+PID: 6578 START: 1774970604468128256 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobs', '16'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobs 16 1>| 2>|
+
+PID: 6578 END: 1774970604472964864 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobs', '16'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobs 16 1>| 2>|
+
+PID: 6578 START: 1774970604473167360 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.outermanifest', 'true'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.outermanifest true 1>| 2>|
+
+PID: 6578 END: 1774970604476228096 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.outermanifest', 'true'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.outermanifest true 1>| 2>|
+
+PID: 6578 START: 1774970604476359936 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobsnetwork', '16'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobsnetwork 16 1>| 2>|
+
+PID: 6578 END: 1774970604480618496 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobsnetwork', '16'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobsnetwork 16 1>| 2>|
+
+PID: 6578 START: 1774970604480803072 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobscheckout', '16'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobscheckout 16 1>| 2>|
+
+PID: 6578 END: 1774970604483739904 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobscheckout', '16'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobscheckout 16 1>| 2>|
+
+PID: 6578 START: 1774970604483885824 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.mpupdate', 'true'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.mpupdate true 1>| 2>|
+
+PID: 6578 END: 1774970604486764544 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.mpupdate', 'true'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.mpupdate true 1>| 2>|
+
+PID: 6578 START: 1774970604486923008 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.interleaved', 'true'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.interleaved true 1>| 2>|
+
+PID: 6578 END: 1774970604489580544 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.interleaved', 'true'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.interleaved true 1>| 2>|
+
+PID: 6578 START: 1774970604489752064 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.clonebundle', 'true'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.clonebundle true 1>| 2>|
+
+PID: 6578 END: 1774970604492199936 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.clonebundle', 'true'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.clonebundle true 1>| 2>|
+
+PID: 6578 START: 1774970604492307712 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.retryfetches', '0'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.retryfetches 0 1>| 2>|
+
+PID: 6578 END: 1774970604494821120 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.retryfetches', '0'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.retryfetches 0 1>| 2>|
+
+PID: 6578 START: 1774970604495009792 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.prune', 'true'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.prune true 1>| 2>|
+
+PID: 6578 END: 1774970604498384384 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.prune', 'true'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.prune true 1>| 2>|
+
+PID: 6578 START: 1774970604498534144 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.repoverify', 'true'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.repoverify true 1>| 2>|
+
+PID: 6578 END: 1774970604501400320 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.repoverify', 'true'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.repoverify true 1>| 2>|
+
+PID: 6578 START: 1774970604501558272 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.quiet', 'false'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.quiet false 1>| 2>|
+
+PID: 6578 END: 1774970604504455680 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.quiet', 'false'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.quiet false 1>| 2>|
+
+PID: 6578 START: 1774970604504650496 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.verbose', 'false'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.verbose false 1>| 2>|
+
+PID: 6578 END: 1774970604507408128 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.verbose', 'false'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.verbose false 1>| 2>|
+
+PID: 6578 START: 1774970604507579648 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.url', 'https://github.com/Unnamed-project-o/full-stack-manifest.git'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.url https://github.com/Unnamed-project-o/full-stack-manifest.git 1>| 2>|
+
+PID: 6578 END: 1774970604510876928 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.url', 'https://github.com/Unnamed-project-o/full-stack-manifest.git'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.url https://github.com/Unnamed-project-o/full-stack-manifest.git 1>| 2>|
+
+PID: 6578 START: 1774970604511020032 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 6578 END: 1774970604514739968 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 6578 START: 1774970604514904832 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.remote', 'origin'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.remote origin 1>| 2>|
+
+PID: 6578 END: 1774970604518037504 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.remote', 'origin'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.remote origin 1>| 2>|
+
+PID: 6578 START: 1774970604518185728 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.merge', 'refs/heads/main'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.merge refs/heads/main 1>| 2>|
+
+PID: 6578 END: 1774970604521132288 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.merge', 'refs/heads/main'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.merge refs/heads/main 1>| 2>|
+
+PID: 6578 START: 1774970604521256704 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.existingprojectcount', '0'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.existingprojectcount 0 1>| 2>|
+
+PID: 6578 END: 1774970604524111360 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.existingprojectcount', '0'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.existingprojectcount 0 1>| 2>|
+
+PID: 6578 START: 1774970604524225024 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.newprojectcount', '3'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.newprojectcount 3 1>| 2>|
+
+PID: 6578 END: 1774970604528012800 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--file', '/home/moss/full-stack-repo/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.newprojectcount', '3'] with debug: : git config --file /home/moss/full-stack-repo/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.newprojectcount 3 1>| 2>|
+
+PID: 6578 START: 1774970604529012224 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 6578 END: 1774970604531438336 :git command /home/moss/full-stack-repo/.repo/projects/..git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 6578 END: 1774970604531555840 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: sync, -j16 [sid=repo-20260331T152243Z-P000019b2/repo-20260331T152243Z-P000019b2]
+
